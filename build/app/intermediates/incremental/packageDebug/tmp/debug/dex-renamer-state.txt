@@ -1,0 +1,4 @@
+#Sun Mar 20 17:11:26 NPT 2022
+base.0=/Users/ranjandhungana/StudioProjects/angelswing/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

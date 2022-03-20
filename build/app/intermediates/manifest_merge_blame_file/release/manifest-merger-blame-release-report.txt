@@ -1,0 +1,189 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="angelswing.com.angel_swing"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+8-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:3:5-66
+11-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:3:22-63
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:4:5-80
+12-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:4:22-78
+13    <uses-permission android:name="android.permission.ACCESS_COURSE_LOCATION " />
+13-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:5:5-81
+13-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:5:22-79
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:6:5-79
+14-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:6:22-76
+15    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+15-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:7:5-84
+15-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:7:22-82
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:8:5-66
+16-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:8:22-64
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->[:geolocator_android] /Users/ranjandhungana/StudioProjects/angelswing/build/geolocator_android/intermediates/library_manifest/release/AndroidManifest.xml:7:5-77
+17-->[:geolocator_android] /Users/ranjandhungana/StudioProjects/angelswing/build/geolocator_android/intermediates/library_manifest/release/AndroidManifest.xml:7:22-74
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[:connectivity] /Users/ranjandhungana/StudioProjects/angelswing/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:7:5-79
+18-->[:connectivity] /Users/ranjandhungana/StudioProjects/angelswing/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:7:22-76
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->[:connectivity] /Users/ranjandhungana/StudioProjects/angelswing/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:8:5-76
+19-->[:connectivity] /Users/ranjandhungana/StudioProjects/angelswing/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:8:22-73
+20    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+20-->[:flutter_local_notifications] /Users/ranjandhungana/StudioProjects/angelswing/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:9:5-81
+20-->[:flutter_local_notifications] /Users/ranjandhungana/StudioProjects/angelswing/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:9:22-78
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ranjandhungana/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ranjandhungana/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ranjandhungana/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+25
+26    <application
+27        android:name="android.app.Application"
+27-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:11:9-42
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.6.0] /Users/ranjandhungana/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:24:18-86
+29        android:icon="@mipmap/ic_launcher"
+29-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:12:9-43
+30        android:label="angel_swing" >
+30-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:10:9-36
+31        <meta-data
+31-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:13:8-14:69
+32            android:name="com.google.android.geo.API_KEY"
+32-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:13:19-64
+33            android:value="AIzaSyADre_gq2dKsFtLdTh5LGNSpWjbFXCHxII" />
+33-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:14:12-67
+34
+35        <activity
+35-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:15:9-35:20
+36            android:name="angelswing.com.angel_swing.MainActivity"
+36-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:16:13-41
+37            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+37-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:20:13-163
+38            android:exported="true"
+38-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:17:13-36
+39            android:hardwareAccelerated="true"
+39-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:21:13-47
+40            android:launchMode="singleTop"
+40-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:18:13-43
+41            android:theme="@style/LaunchTheme"
+41-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:19:13-47
+42            android:windowSoftInputMode="adjustResize" >
+42-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:22:13-55
+43
+44            <!--
+45                 Specifies an Android theme to apply to this Activity as soon as
+46                 the Android process has started. This theme is visible to the user
+47                 while the Flutter UI initializes. After that, this theme continues
+48                 to determine the Window background behind the Flutter UI.
+49            -->
+50            <meta-data
+50-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:27:13-30:17
+51                android:name="io.flutter.embedding.android.NormalTheme"
+51-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:28:15-70
+52                android:resource="@style/NormalTheme" />
+52-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:29:15-52
+53
+54            <intent-filter>
+54-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:31:13-34:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:32:17-68
+55-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:32:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:33:17-76
+57-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:33:27-74
+58            </intent-filter>
+59        </activity>
+60        <!--
+61             Don't delete the meta-data below.
+62             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+63        -->
+64        <meta-data
+64-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:38:9-40:33
+65            android:name="flutterEmbedding"
+65-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:39:13-44
+66            android:value="2" />
+66-->/Users/ranjandhungana/StudioProjects/angelswing/android/app/src/main/AndroidManifest.xml:40:13-30
+67
+68        <service
+68-->[:geolocator_android] /Users/ranjandhungana/StudioProjects/angelswing/build/geolocator_android/intermediates/library_manifest/release/AndroidManifest.xml:10:9-14:56
+69            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+69-->[:geolocator_android] /Users/ranjandhungana/StudioProjects/angelswing/build/geolocator_android/intermediates/library_manifest/release/AndroidManifest.xml:11:13-77
+70            android:enabled="true"
+70-->[:geolocator_android] /Users/ranjandhungana/StudioProjects/angelswing/build/geolocator_android/intermediates/library_manifest/release/AndroidManifest.xml:12:13-35
+71            android:exported="false"
+71-->[:geolocator_android] /Users/ranjandhungana/StudioProjects/angelswing/build/geolocator_android/intermediates/library_manifest/release/AndroidManifest.xml:13:13-37
+72            android:foregroundServiceType="location" />
+72-->[:geolocator_android] /Users/ranjandhungana/StudioProjects/angelswing/build/geolocator_android/intermediates/library_manifest/release/AndroidManifest.xml:14:13-53
+73
+74        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+74-->[:flutter_local_notifications] /Users/ranjandhungana/StudioProjects/angelswing/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:12:9-106
+74-->[:flutter_local_notifications] /Users/ranjandhungana/StudioProjects/angelswing/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:12:19-103
+75        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
+75-->[:flutter_local_notifications] /Users/ranjandhungana/StudioProjects/angelswing/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:13:9-20:20
+75-->[:flutter_local_notifications] /Users/ranjandhungana/StudioProjects/angelswing/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:13:19-107
+76            <intent-filter>
+76-->[:flutter_local_notifications] /Users/ranjandhungana/StudioProjects/angelswing/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:14:13-19:29
+77                <action android:name="android.intent.action.BOOT_COMPLETED" />
+77-->[:flutter_local_notifications] /Users/ranjandhungana/StudioProjects/angelswing/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:15:17-79
+77-->[:flutter_local_notifications] /Users/ranjandhungana/StudioProjects/angelswing/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:15:25-76
+78                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+78-->[:flutter_local_notifications] /Users/ranjandhungana/StudioProjects/angelswing/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:16:17-84
+78-->[:flutter_local_notifications] /Users/ranjandhungana/StudioProjects/angelswing/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:16:25-81
+79                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+79-->[:flutter_local_notifications] /Users/ranjandhungana/StudioProjects/angelswing/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:17:17-82
+79-->[:flutter_local_notifications] /Users/ranjandhungana/StudioProjects/angelswing/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:17:25-79
+80                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+80-->[:flutter_local_notifications] /Users/ranjandhungana/StudioProjects/angelswing/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:18:17-82
+80-->[:flutter_local_notifications] /Users/ranjandhungana/StudioProjects/angelswing/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:18:25-79
+81            </intent-filter>
+82        </receiver>
+83
+84        <uses-library
+84-->[androidx.window:window:1.0.0-beta04] /Users/ranjandhungana/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+85            android:name="androidx.window.extensions"
+85-->[androidx.window:window:1.0.0-beta04] /Users/ranjandhungana/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+86            android:required="false" />
+86-->[androidx.window:window:1.0.0-beta04] /Users/ranjandhungana/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+87        <uses-library
+87-->[androidx.window:window:1.0.0-beta04] /Users/ranjandhungana/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+88            android:name="androidx.window.sidecar"
+88-->[androidx.window:window:1.0.0-beta04] /Users/ranjandhungana/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+89            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+89-->[androidx.window:window:1.0.0-beta04] /Users/ranjandhungana/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+90        <uses-library
+90-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ranjandhungana/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+91            android:name="org.apache.http.legacy"
+91-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ranjandhungana/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+92            android:required="false" />
+92-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ranjandhungana/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+93
+94        <activity
+94-->[com.google.android.gms:play-services-base:17.0.0] /Users/ranjandhungana/.gradle/caches/transforms-2/files-2.1/3679fa9be1d67d14c72169d3353f14d4/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+95            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+95-->[com.google.android.gms:play-services-base:17.0.0] /Users/ranjandhungana/.gradle/caches/transforms-2/files-2.1/3679fa9be1d67d14c72169d3353f14d4/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+96            android:exported="false"
+96-->[com.google.android.gms:play-services-base:17.0.0] /Users/ranjandhungana/.gradle/caches/transforms-2/files-2.1/3679fa9be1d67d14c72169d3353f14d4/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+97-->[com.google.android.gms:play-services-base:17.0.0] /Users/ranjandhungana/.gradle/caches/transforms-2/files-2.1/3679fa9be1d67d14c72169d3353f14d4/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+98
+99        <meta-data
+99-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ranjandhungana/.gradle/caches/transforms-2/files-2.1/a7975ba3cb0c3630bd14453686890431/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+100            android:name="com.google.android.gms.version"
+100-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ranjandhungana/.gradle/caches/transforms-2/files-2.1/a7975ba3cb0c3630bd14453686890431/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+101            android:value="@integer/google_play_services_version" />
+101-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ranjandhungana/.gradle/caches/transforms-2/files-2.1/a7975ba3cb0c3630bd14453686890431/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+102    </application>
+103
+104</manifest>

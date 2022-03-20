@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+angelswing/com/angel_swing/BuildConfig.java
+ angelswing.com.angel_swing.BuildConfig
